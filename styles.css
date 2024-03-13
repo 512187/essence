@@ -1,0 +1,775 @@
+/* Begin Homepage, tot regel 140 */
+@font-face {
+    font-family: 'Girassol';
+    src: url('../../Girassol-Regular.ttf') format('truetype');
+}
+body{
+    background-color: #2e2e2e;
+     /* overflow: hidden;  */
+  }
+  html{
+  scroll-behavior: smooth;
+  }
+  /* Nav Bar */
+  ul {
+   /* position: sticky; */
+    position: fixed;
+    /* top: 0; */
+    width: 99%; 
+   top: 0px;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 8px;
+    margin-right: 10px;
+    padding: 0;
+    /* padding-top: 60px; */
+    overflow: hidden;
+    background-color: #fefcf246;
+    height: 68px;
+    z-index: 10;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid #000;
+    font-family:'Fontfabric nexa rust sans 01',sans-serif  
+  }
+  
+   li {
+    position: relative;
+    float: left;
+    color: transparent;
+    z-index: 10;
+  } 
+  
+   li a {
+    position: relative;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 10;  
+  } 
+  /* Nav Bar Tabs HOVER */
+  li a:hover {
+    position: relative;
+    background-color: #ffffff;
+    border: 0px solid #000;
+    z-index: 10;
+  }
+  /* Logo In NavBar */
+  .nameSite{
+  position:absolute;
+  right: 40%;
+  margin-top: -2%;
+  display: flex;  
+  font-family: 'Girassol';
+  text-decoration: none;
+  z-index: 10;
+  }
+
+  
+  /* Reserveren BTN */
+  .bestellen{
+    position:absolute; 
+    right: 150px;
+    top: 1px;
+    z-index: 10;
+    font-weight: 700;
+    text-decoration: none;
+    font-family:'Fontfabric nexa rust sans 01',sans-serif
+  } 
+  
+  #bestellenlink a:hover{
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    z-index: 10;
+  }
+  
+  /* Logo Homepage */
+  
+  /* #logo{
+  position:absolute;
+  top: 250px;
+  right: 400px; 
+  z-index: 10;
+  } */
+  
+  
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+   #parallax1{
+    max-height: 100%;
+     max-width: 100%;  
+  } 
+  
+  #parallax2{
+    position:absolute;
+    top: 1000px;
+    height: 400px;
+  }
+  
+  #parallax3{
+    position: relative;
+    top: 2000px;
+    height: 400px;
+  }
+  
+  #parallax4{
+  position: relative;
+  top: 3000px;
+  height: 400px;
+  }
+  
+  #parallax5{
+  position: relative;
+  top: 4000px;
+  height: 400px;
+  }
+  
+  #parallax6{
+  position: relative;
+  top: 5000px;
+  height: 400px;
+  }
+  
+  /* begin Over */
+  
+  #parallax2{
+    position:absolute;
+    top: 1000px;
+    height: 400px;
+  }
+  
+  #fotopara{
+    position: relative;
+    top: 140px;
+    left: 100px;
+  }
+  #bleuDeChanel{
+    position: relative;
+    top: 140px;
+    left: 33%;
+  }
+   #fotopara2{
+    position:relative;
+    top: -160px;
+    left: 600px;
+  }
+  #swyIntensly{
+    position: relative;
+    top: -790px;
+    left: 200%;
+  }
+    #fotopara3{
+    position: relative;
+    top: -1094px;
+    left: 1090px;
+  }  
+    #aquaDiGio{
+        position: relative;
+        top: -1072px;
+        left: 1090px;
+  }   
+  
+  /* einde over */
+  
+  /* begin menu */
+  
+  /* begin reserveren */
+  .Reserveren{
+    box-sizing: border-box;
+    background-color: #3d3106;
+    font-family: 'poppins', sans-serif;
+    width: auto;
+    height: 1000px;
+  }
+  
+  .container-Reserveren{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #parallax4 form{
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 1100px;
+    border-radius: 10px;
+  }
+  
+  #parallax4 form h1 {
+    background-color: #d9d9d9;
+    font-weight: 800;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+  
+  #parallax4 form p{
+    background-color: #d9d9d9;
+  }
+  
+  #parallax4 form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #ffffff;
+    font-size: 16px;
+  }
+  
+  #parallax4 form input{
+    max-width: 500px;
+  }
+  
+  #parallax4 form textarea{
+    height: 150px;
+    min-height: 100px;
+    max-height: 300px;
+    max-width: 1000px;
+    min-width: 500px;
+  }
+  
+  #parallax4 form button{
+    padding: 15px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 20px;
+  }
+  
+  /* einde menu */
+  
+  /* begin groepen */
+  
+  #box1{
+    height: 409px;
+    width: 528px;
+    left: 144px;
+    top: 183px;
+    position:absolute;
+    background-color: #d9d9d9;
+    z-index:-10;
+  }
+  
+  #tekst4{
+    top: 220px;
+    left: 270px;
+    position:absolute;
+    text-align: center;
+    z-index: 9;
+  }
+  
+  #box2{
+    width: 588px;
+    height: 295px;
+    left: 770px;
+    top: 183px;
+    position:absolute;
+    background-color: #d9d9d9;
+    z-index:-10;
+  }
+  
+  #box3{
+    width: 528px;
+    height: 248px;
+    left: 144px;
+    top: 663px;
+    position:absolute;
+    background-color: #d9d9d9;
+  }
+  
+  #box4{
+    width: 588px;
+    height: 374px;
+    left: 770px;
+    top: 537px;
+    position:absolute;
+    background-color: #d9d9d9;
+  }
+  
+  #box5{
+    width: 508px;
+    height: 389px;
+    left: 154px;
+    top: 193px;
+    position:absolute;
+    background-color: #3d3106;
+    z-index: -9;
+  }
+  
+  #box6{
+    width: 498px;
+    height: 379px;
+    left: 159px;
+    top: 198px;
+    position:absolute;
+    background-color: #d9d9d9;
+    z-index: -8;
+  }
+  
+  #box7{
+    width: 508px;
+    height: 228px;
+    left: 154px;
+    top: 673px;
+    position:absolute;
+    background-color: #3d3106;
+  }
+  
+  #box8{
+    width: 498px;
+    height: 218px;
+    left: 159px;
+    top: 678px;
+    position:absolute;
+    background-color: #d9d9d9;
+  }
+  
+  #box9{
+    width: 568px;
+    height: 354px;
+    left: 780px;
+    top: 547px;
+    position:absolute;
+    background-color: #3d3106;
+  }
+  
+  #box10{
+    width: 558px;
+    height: 344px;
+    left: 785px;
+    top: 552px;
+    position:absolute;
+    background-color: #d9d9d9;
+  }
+  
+  #groepenimg{
+    width: 558px;
+    height: 265px;
+    left: 785px;
+    top: 198px;
+    position:absolute;
+    z-index:9;
+  }
+  
+  #tekst5{
+    top: 680px;
+    left: 168px;
+    position:absolute;
+    text-align: center;
+    z-index:9;
+  }
+  #tekst6{
+    top: 600px;
+    left: 793px;
+    position:absolute;
+    text-align: center;
+    z-index:9;
+  }
+  
+  #box11{
+    width: 568px;
+    height: 275px;
+    left: 780px;
+    top: 193px;
+    position:absolute;
+    background-color: #3d3106;
+    z-index:-9;
+  }
+  
+  /* einde groepen */
+  
+  /* -- Script Kyan -- */
+  
+  
+  
+  
+  /* begin contact */
+  
+  .contact{
+    box-sizing: border-box;
+    background-color: #3d3106;
+    font-family: 'poppins', sans-serif;
+    width: auto;
+    height: 1000px;
+  }
+  
+  .container-contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-contactbalk{
+    width: 100%;
+    height: 200px;
+    background-color: #3d3106;
+  }
+  
+  .contactbalk{
+    position: relative;
+    margin: auto;
+    width: 84%;
+    height: 150px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+  }
+  
+  .column{
+    float: left;
+    width: 41%;
+    margin-left: 80px;
+    padding-right: 20px;
+    line-height: 120px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 2px solid #3d3106;
+    height: 150px;
+    line-height: 40px
+  }
+  
+  .column_rechts{
+    float: left;
+    width: 41%;
+    margin-right: 80px;
+    padding-left: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    border-left: 2px solid #3d3106;
+    height: 150px;
+  }
+  
+  .column_fb{
+    float: left;
+    width: 50%;
+  }
+  
+  .column_fb img{
+    height: 50px;
+  }
+  
+  .column_ig img{
+    height: 50px;
+  }
+  
+  .column_ig{
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after{
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  
+  #parallax6 form{
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 1100px;
+    border-radius: 10px;
+  }
+  
+  #parallax6 form h1 {
+    background-color: #d9d9d9;
+    font-weight: 800;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+  
+  #parallax6 form p{
+    background-color: #d9d9d9;
+  }
+  
+  #parallax6 form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #ffffff;
+    font-size: 16px;
+  }
+  
+  #parallax6 form input{
+    max-width: 500px;
+  }
+  
+  #parallax6 form textarea{
+    height: 150px;
+    min-height: 100px;
+    max-height: 300px;
+    max-width: 1000px;
+    min-width: 500px;
+  }
+  
+  #parallax6 form button{
+    padding: 15px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 20px;
+  }
+  
+  
+  /* -- Script Pim -- */
+  
+  
+  
+  /* grijze achtergrond-box*/
+  #parallax3 #background 
+  {
+    width: 1400px;
+    height: 1100px;
+    background: #d9d9d9;
+    position:absolute;
+    top: 60px;
+    left: 50px;
+    overflow: hidden;
+    z-index: -10;
+  }
+  
+  
+  
+  
+  #parallax3 .content{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
+    position: relative;
+    z-index: 100;
+  }
+  
+  #parallax3 .background{
+    color: #999999;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: -100;
+    width: 1400px;
+    height: 550px;
+    background: rgb(123, 123, 123);
+    position: relative;
+   
+  }
+  
+  /*Vakjes op de grijze box*/
+  #parallax3 #box_1 
+  {
+    
+    position: relative;
+    top: 65px;
+    left: 5%;
+    width: 0px;
+    height: auto;
+    
+  }
+  
+  #parallax3 #box_2 
+  {
+    
+    position: relative;
+    top: 260px;
+    left: 5%;
+    width: 0px;
+    height: auto;
+    
+  }
+  
+  #parallax3 #box_3 
+  {
+    
+    position: relative;
+    top: -350px;
+    left: 48%;
+    width: 0px;
+    height: auto;
+    
+  }
+  
+  #parallax3 #box_4 
+  {
+    
+    position: relative;
+    top: -150px;
+    left: 48%;
+    width: 0px;
+    height: auto;
+  
+    
+  }
+  
+  #parallax3 #box_5
+  {
+    
+    position: relative;
+    top: -555px;
+    left: 33%;
+    width: 0px;
+    height: auto;
+    
+  }
+  
+  #parallax3 #box_6
+  {
+    
+    position: relative;
+    top: -815px;
+    left: 80%;
+    width: 0px;
+    height: auto;
+    
+  }
+  
+  #parallax3 #box_7
+  {
+    
+    position: relative;
+    top: -625px;
+    left: 80%;
+    width: 0px;
+    height: auto;
+    
+  }
+  
+  #parallax3 #box_8
+  {
+    
+    position: relative;
+    top: -830px;
+    left: 33%;
+    width: 0px;
+    height: auto;
+    
+  }
+  
+  
+  /*Teksten naast de plaatjes op het grijze vak*/
+  
+  #parallax3 #tekst
+  {
+    position:absolute;
+    padding-top: 485px;
+    padding-left: 330px;
+    font-family:'poppins',sans-serif
+  }
+  
+  #parallax3 #tekstb
+  { 
+  position:absolute;
+  padding-top: 100px;
+  padding-left: 330px;
+  font-family:'poppins',sans-serif
+  
+  }
+  
+  #parallax3 #tekstc
+  { 
+  position:absolute;
+  padding-top: 100px;
+  padding-left: 970px;
+  font-family:'poppins',sans-serif
+  
+  }
+  
+  #parallax3 #tekstd
+  { 
+  position:absolute;
+  padding-top: 500px;
+  padding-left: 980px;
+  font-family:'poppins',sans-serif
+  
+  }
+  
+  #parallax3 #tekste
+  { 
+  position:absolute;
+  padding-top: 300px;
+  padding-left: 66px;
+  font-family:'poppins',sans-serif
+  
+  }
+  
+  
+  #parallax3 #tekstf
+  { 
+  position:absolute;
+  padding-top: 290px;
+  padding-left: 880px;
+  font-family:'poppins',sans-serif
+  }
+  
+  #parallax3 #tekstg
+  { 
+  position:absolute;
+  padding-top: 700px;
+  padding-left: 760px;
+  font-family:'poppins',sans-serif
+  }
+  
+  #parallax3 #teksth
+  { 
+  position:absolute;
+  padding-top: 700px;
+  padding-left: 200px;
+  font-family:'poppins',sans-serif
+  }
+  
+  /* de knop, eigenschappen*/
+  #parallax3 .knop {
+    background-color: #fff9b3;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+    position:absolute;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /*de knop, locatie*/
+  #parallax3 #locatie{
+    padding-bottom: px;
+    padding-left: 100px;
+  }
+  
+  #parallax3 #loctekst{
+    padding-left: 500px;
+    font-size: 50px;
+    
+  }
+  
+  
